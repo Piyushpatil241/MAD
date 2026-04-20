@@ -1,0 +1,37 @@
+Aim:
+To install and configure Flutter environment.
+Theory:
+Flutter is Google’s portable UI toolkit used for developing beautiful, natively compiled
+applications for mobile, web, and desktop using a single codebase. It allows developers to
+write code once and deploy it across multiple platforms such as Android, iOS, and web.
+Flutter applications are compiled natively, which ensures high performance and smooth user
+experience. It provides a rich set of pre-designed widgets that help in building modern UI
+efficiently.
+Procedure:
+Step 1: Download Flutter SDK
+• Visit the official Flutter website: https://flutter.dev
+• Click on “Get Started”
+• Choose your operating system and download Flutter SDK
+Step 2: Extract Flutter SDK
+• Extract the downloaded zip file to your preferred location
+Step 3: Set Path
+• For Linux/Mac:
+export PATH=$PATH:/path_to_flutter/flutter/bin
+• For Windows:
+o Add Flutter bin folder path in Environment Variables
+Step 4: Verify Installation
+• Open terminal/command prompt and run:
+flutter doctor
+Step 5: Install Dependencies
+• Install required dependencies based on flutter doctor output
+Step 6: Setup Emulator
+• Use Android Studio to create an emulator
+OR
+• Connect a physical device
+Step 7: Create Flutter Project
+flutter create my_flutter_app
+Step 8: Run Application
+cd my_flutter_app
+flutter run
+Conclusion:
+Successfully installed and configured the Flutter environment.
